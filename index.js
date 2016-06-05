@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // Dependencies
 const savePixels            = require('save-pixels');
 const package               = require('./package.json');

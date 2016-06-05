@@ -1,7 +1,10 @@
 {
-  "name": "pngencoder",
+  "name": "txt-png",
   "version": "0.1.0",
   "description": "Encodes a piece of text as a png",
+  "bin": {
+      "txt-png": "index.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node test"
