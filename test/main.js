@@ -5,11 +5,7 @@ const {
 const streamToBuffer = require('stream-to-buffer');
 
 const message = 'Hello World. This is a test!';
-const imageStream = textToImageBuffer(message);
-
-streamToBuffer(imageStream, (err, buffer) => {
-    if (err) throw err;
-
+textToImageBuffer(message, (buffer) => {
     imageBufferToText(buffer, (text) => {
         console.log(text.length, message.length);
         if (text === message) {
