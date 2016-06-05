@@ -1,0 +1,18 @@
+{
+  "name": "pngencoder",
+  "version": "0.1.0",
+  "description": "Encodes a piece of text as a png",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Leonard Schütz",
+  "license": "MIT",
+  "dependencies": {
+    "argparse": "^1.0.7",
+    "get-pixels": "^3.3.0",
+    "save-pixels": "^2.3.3",
+    "segar": "^0.1.0",
+    "zeros": "^1.0.0"
+  }
+}
