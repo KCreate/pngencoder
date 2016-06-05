@@ -11,7 +11,7 @@ curl https://www.npmjs.com/package/txt-png | txt-png -t encode > output.png
 ```
 This will pipe all the contents of the curl request into txt-png and produces a png file called __output.png__ that looks like this:
 
-![](example.png)
+![](https://raw.githubusercontent.com/KCreate/pngencoder/master/example.png)
 
 ## Decode
 ```bash
