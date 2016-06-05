@@ -2,12 +2,12 @@
 
 // Dependencies
 const savePixels            = require('save-pixels');
-const package               = require('./package.json');
+const package               = require('../package.json');
 const ArgumentParser        = require('argparse').ArgumentParser;
 
 // App specific
-const textToRGBData         = require('./textToRGBData.js');
-const imageBufferToText     = require('./imageBufferToText.js');
+const textToRGBData         = require('../lib/textToRGBData.js');
+const imageBufferToText     = require('../lib/imageBufferToText.js');
 
 // Argument parsing
 const parser = new ArgumentParser({

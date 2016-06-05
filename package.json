@@ -1,11 +1,11 @@
 {
   "name": "txt-png",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Encodes a piece of text as a png",
   "bin": {
-      "txt-png": "index.js"
+      "txt-png": "bin/index.js"
   },
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "node test"
   },

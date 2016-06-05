@@ -5,16 +5,21 @@
 npm install txt-png -g
 ```
 
-# Usage
-Encode text via __stdin__ into a png file called __output.png__
+## Encode
 ```bash
-echo "Hello World. How are you?" | txt-png -t encode > output.png
+curl https://www.npmjs.com/package/txt-png | txt-png -t encode > output.png
 ```
+This will pipe all the contents of the curl request into txt-png and produces a png file called __output.png__ that looks like this:
 
-Decode an image back to text
+![](example.png)
+
+## Decode
 ```bash
 cat output.png | txt-png -t decode > text.txt
 ```
+
+## What is this useful for?
+I have absolutly no idea...
 
 # License
 The MIT License (MIT)
