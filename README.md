@@ -1,5 +1,7 @@
 # txt-png
 
+[![npm version](https://badge.fury.io/js/txt-png.svg)](https://badge.fury.io/js/txt-png)
+
 # Installation
 ```bash
 npm install txt-png -g
