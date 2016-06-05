@@ -18,6 +18,9 @@ This will pipe all the contents of the curl request into txt-png and produces a 
 cat output.png | txt-png -t decode > text.txt
 ```
 
+# Programmatical use
+See the [Example](https://github.com/KCreate/pngencoder/blob/master/test/main.js)
+
 ## What is this useful for?
 I have absolutly no idea...
 

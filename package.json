@@ -1,11 +1,11 @@
 {
   "name": "txt-png",
-  "version": "0.1.1a",
+  "version": "0.1.2",
   "description": "Encodes a piece of text as a png",
   "bin": {
-      "txt-png": "bin/index.js"
+    "txt-png": "bin/index.js"
   },
-  "main": "bin/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test"
   },
@@ -16,6 +16,8 @@
     "get-pixels": "^3.3.0",
     "save-pixels": "^2.3.3",
     "segar": "^0.1.0",
+    "stream-to-array": "^2.3.0",
+    "stream-to-buffer": "^0.1.0",
     "zeros": "^1.0.0"
   }
 }
