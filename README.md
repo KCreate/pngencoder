@@ -1,6 +1,8 @@
 # txt-png
 
-[![npm version](https://badge.fury.io/js/txt-png.svg)](https://badge.fury.io/js/txt-png)
+[![npm](https://img.shields.io/npm/dt/txt-png.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/txt-png)
+[![npm](https://img.shields.io/npm/v/txt-png.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/txt-png)
+[![npm](https://img.shields.io/npm/l/txt-png.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/txt-png)
 
 # Installation
 ```bash
