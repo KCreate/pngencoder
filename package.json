@@ -15,7 +15,8 @@
     "argparse": "^1.0.7",
     "get-pixels": "^3.3.0",
     "save-pixels": "^2.3.3",
-    "segar": "^0.1.0",
+    "segar": "^0.2.0",
+    "stream-to-buffer": "^0.1.0",
     "zeros": "^1.0.0"
   }
 }
