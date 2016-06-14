@@ -5,6 +5,10 @@
   "bin": {
     "txt-png": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KCreate/pngencoder.git"
+  },
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
