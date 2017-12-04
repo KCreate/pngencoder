@@ -26,7 +26,7 @@ cat output.png | txt-png -t decode > text.txt
 See the [Example](https://github.com/KCreate/pngencoder/blob/master/test/main.js)
 
 ## What is this useful for?
-I have absolutly no idea...
+I have absolutely no idea...
 
 # License
 The MIT License (MIT)
